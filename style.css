@@ -1,0 +1,133 @@
+body { 
+    background-color: #f7eca4; 
+} 
+ 
+.h1 { 
+    font-family: FRANKLIN GOTHIC MEDIUM; 
+    margin: 0; 
+    padding: 0 20px; 
+    margin-top: -75px; 
+    text-align: center; 
+    font-size: 45px; 
+    color: white; 
+    -webkit-text-stroke-color: #DDA600; 
+    -webkit-text-stroke-width: 2px; 
+} 
+ 
+h1 { 
+    font-family: FRANKLIN GOTHIC MEDIUM; 
+    text-align: center; 
+    font-size: 45px; 
+    color: white; 
+    -webkit-text-stroke-color: #DDA600; 
+    -webkit-text-stroke-width: 2px; 
+    border-radius: 10px; 
+} 
+ 
+.h1_1 { 
+    -webkit-text-stroke-color: #DDA600; 
+    -webkit-text-stroke-width: 2px; 
+    background-image: linear-gradient(to right, #FFEE80, #FFA257); 
+    margin: 0; 
+    padding: 0 20px; 
+    margin-top: 75px; 
+    height: 60px; 
+     
+} 
+ 
+header { 
+    background-image: linear-gradient(to right, #FFEE80, #FFA257); 
+    height: 100px; 
+    border-radius: 10px; 
+} 
+ 
+.logo { 
+    margin-right: 20px; 
+    width: 120px; 
+    height: 100px; 
+} 
+ 
+ 
+main { 
+    background-color: #f7eca4; 
+    height: 700px; 
+} 
+ 
+.h3 { 
+    background-color: #FFF8CE; 
+    font-family: comic sans ms; 
+    text-align: center; 
+    font-size: 25px; 
+    color: white; 
+    -webkit-text-stroke-color: #DDA600; 
+    -webkit-text-stroke-width: 1px; 
+} 
+ 
+.a1 { 
+    left: 20px; 
+    background-color: #FFF8CE; 
+    font-family: comic sans ms; 
+    padding: 10px; 
+    font-size: 20px; 
+    color: white; 
+    -webkit-text-stroke-color: #DDA600; 
+    -webkit-text-stroke-width: 1px; 
+    border: 3px double #DDA600; 
+    text-decoration: none; 
+    border-radius: 10px; 
+} 
+ 
+.nav1:hover { 
+    left: 0px; 
+    background-color: #FFF8CE; 
+} 
+ 
+.nav1 { 
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+} 
+ 
+p, h3 { 
+    border: 3px solid #DDA600; 
+    text-decoration: none; 
+    border-radius: 10px; 
+} 
+ 
+.a1:hover { 
+    transition: 0.7s; 
+    background-color: #ffedce; 
+    color: rgb(255, 143, 38); 
+    -webkit-text-stroke-color: #dd7200; 
+    -webkit-text-stroke-width: 1px; 
+    border: 3px dotted #dd6b00; 
+} 
+ 
+ 
+.image1, .image2, .image3 { 
+    width: 500px; 
+    height: 300px; 
+} 
+ 
+.image_container { 
+    margin: 10px; 
+} 
+ 
+.image_container img { 
+    margin: 10px; 
+    border: 5px solid blue; 
+    border-image: linear-gradient(to right, #ffffad, #FFA257); 
+    border-image-slice: 1; 
+} 
+ 
+.image1 { 
+    position: relative; 
+    left: 10px; 
+    display: block; 
+} 
+ 
+.image2 { 
+    position: relative; 
+    left: 550px; 
+    display: block; 
+}
