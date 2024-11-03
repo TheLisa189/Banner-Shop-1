@@ -131,3 +131,22 @@ p, h3 {
     left: 550px; 
     display: block; 
 }
+
+
+.image3:hover {
+    width: 900px; 
+    height: 500px;
+    transition: 0.5s; 
+}
+
+.image2:hover {
+    width: 900px; 
+    height: 500px;
+    transition: 0.5s; 
+}
+
+.image1:hover {
+    width: 900px; 
+    height: 500px;
+    transition: 0.5s; 
+}
